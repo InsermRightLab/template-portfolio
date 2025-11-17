@@ -26,7 +26,7 @@ Le fichier principal de configuration [/_config.yml](_config.yml) est le premier
 
 ### Fichier _pages/about.md
 
-Le fichier [/_pages/about.md](_pages/about.md) est la page d'accueil par défaut du site. Les pages markdown possèdent en en-tête du yml qui ici renvoie à diverses options comme une liste de publis mise en avant (selected_papers) ou des news (announcements) (voir options désactivées ci-dessous) que vous pouvez réactiver si nécessaire. Vous pouvez mettre une introduction dans le contenu sous le yml (il ne faut rien rajouter entre les ---).
+Le fichier [/_pages/about.md](_pages/about.md) est la page d'accueil par défaut du site. Les pages markdown possèdent en en-tête des paramètres qui ici renvoient à diverses options comme une liste de publis mise en avant (selected_papers) ou des news (announcements) (voir options désactivées ci-dessous) que vous pouvez réactiver si nécessaire. Vous pouvez mettre une introduction dans le contenu sous les paramètres (il ne faut rien rajouter entre les ---).
 
 ### Fichier _data/socials.yml
 
@@ -34,7 +34,7 @@ Les icones et liens des divers réseaux sociaux professionnels (LinkedIn, Resear
 
 ### Dossier _projects
 
-Le dossier [/_projects/](_projects/) contient tous les fichiers markdown qui sont autant de pages html différentes pour les analyses bioinformatiques. Il y a deux manières de construire son portfolio: soit chaque fichier markdown est une analyse, et dans ce cas on peut les catégoriser en Bulk, Single-cell etc (c'est ce que j'ai fait, mais cela peut donner vraiment beaucoup de fichiers). Les catégories se mettent dans [/_pages/projects.md](_pages/projects.md) au niveau de display_categories: entre crochets (exemple, display_categories: [Bulk RNA-seq, Single-cell RNA-seq] ce qui va classer les fichiers markdown suivants leur catégorie indiquée dans l'en-tête yml du markdown de l'analyse bioinformatique). 
+Le dossier [/_projects/](_projects/) contient tous les fichiers markdown qui sont autant de pages html différentes pour les analyses bioinformatiques. Il y a deux manières de construire son portfolio: soit chaque fichier markdown est une analyse, et dans ce cas on peut les catégoriser en Bulk, Single-cell etc (c'est ce que j'ai fait, mais cela peut donner vraiment beaucoup de fichiers). Les catégories se mettent dans [/_pages/projects.md](_pages/projects.md) au niveau de display_categories: entre crochets (exemple, display_categories: [Bulk RNA-seq, Single-cell RNA-seq] ce qui va classer les fichiers markdown suivants leur catégorie indiquée dans l'en-tête du markdown de l'analyse bioinformatique). 
 
 Soit on peut créer un seul fichier markdown pour chaque type d'analyse, donc Bulk, single-cell etc, et dans ce fichier markdown mettre les diverses analyses à la suite. Par défaut j'ai enlevé les catégories dans [/_pages/projects.md](_pages/projects.md) et laissé un exemple d'analyse pour voir comment on peut construire (notamment les images, le site organise automatiquement les images quand on les met par 2 ou 3).
 
