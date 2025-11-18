@@ -22,7 +22,7 @@ La deuxième est plus compliquée mais moins fastidieuse puisque l'on peut modif
 
 ### Fichier _config.yml
 
-Le fichier principal de configuration [/_config.yml](_config.yml) est le premier à modifier, notamment nom, prénom, et surtout l'adresse url du site pseudo.github.io. J'ai mis des commentaires en français sur les items à remplir en priorité, il y a beaucoup d'options, je les ai déjà pré-réglées mais si vous voulez en personnaliser certaines regardez bien le tutoriel du thème principal [/CUSTOMIZE.md](CUSTOMIZE.md).
+Le fichier principal de configuration [/_config.yml](_config.yml) est le premier à modifier, notamment nom, prénom, et surtout l'adresse url du site sous la forme https://pseudo.github.io. J'ai mis des commentaires en français sur les items à remplir en priorité, il y a beaucoup d'options, je les ai déjà pré-réglées mais si vous voulez en personnaliser certaines regardez bien le tutoriel du thème principal [/CUSTOMIZE.md](CUSTOMIZE.md).
 
 ### Fichier _pages/about.md
 
